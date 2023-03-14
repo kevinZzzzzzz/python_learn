@@ -58,4 +58,28 @@ DML 数据操作语言
 
 
 DQL-数据查询
+基础查询
+sleect 字段列表｜* from 表
 
+查询数据-过滤
+select 字段列表｜* from 表 where 条件判断
+
+分组聚合 group by 列  ----  按 列 进行分组
+select 字段｜聚合函 数 from 表 [where 条件] group by 列
+聚合函数有：
+    sum(列) 求和
+    avg(列) 求平均值
+    min(列) 求最小值
+    max(列) 求最大值
+    count(列｜*) 求数量
+
+结果排序 order by
+select 列｜聚合函数｜* from 表
+where 。。。
+group by 。。。
+order by 。。。[asc|desc]
+    asc: 升序
+    desc：降序
+limit n[,m]
+    n: 第n条起始
+    m: 向后取m条
