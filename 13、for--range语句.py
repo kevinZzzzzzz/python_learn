@@ -23,6 +23,9 @@ for x in range(5, 10, 2):
     print(f'{x}、', end='')
 print()
 
+for x in range(10, 0, -1):
+    print(x, '21312')
+
 """
 for 循环的变量作用域
 在for循环外部访问临时变量

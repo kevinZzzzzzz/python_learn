@@ -1,0 +1,27 @@
+"""
+工厂模式
+    大批量创建对象的时候有统一的入口，易于代码维护
+    当发送修改，仅仅修改工厂类的创建即可
+"""
+class Person:
+    pass
+class Worker(Person):
+    pass
+class Student(Person):
+    pass
+class Teacher(Person):
+    pass
+
+class PersonFactory:
+    def get_person(self, p_type):
+        if p_type == 'w':
+            return Worker()
+        elif p_type == 's':
+            return Student()
+        else:
+            return Teacher()
+
+pf = PersonFactory()
+worker = pf.get_person('w')
+student = pf.get_person('s')
+teacher = pf.get_person('t')

@@ -13,6 +13,7 @@ conf = SparkConf().setMaster('local[*]').setAppName('test_spark')
 sc = SparkContext(conf=conf)
 
 rdd = sc.textFile('./hello2.txt')
+print(rdd.collect())
 word_rdd = rdd.flatMap(lambda x: x.split(' ')).map(lambda x: (x, 1)).reduceByKey(lambda x, y: x + y)
 print(word_rdd.collect())
 
