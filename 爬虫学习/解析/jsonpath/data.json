@@ -1,0 +1,34 @@
+{
+  "store": {
+    "book": [
+      {
+        "category": "哈哈1",
+        "author": "呵呵1",
+        "title": "哦哦1",
+        "isbn": "111",
+        "price": 1
+      },{
+        "category": "哈哈2",
+        "author": "呵呵2",
+        "title": "哦哦2",
+        "price": 2
+      },{
+        "category": "哈哈3",
+        "author": "呵呵3",
+        "title": "哦哦3",
+        "isbn": "333",
+        "price": 3
+      },{
+        "category": "哈哈4",
+        "author": "呵呵4",
+        "title": "哦哦4",
+        "price": 4
+      }
+    ],
+    "bicycle": {
+      "author": "老🐎",
+      "color": "黑色",
+      "price": 20
+    }
+  }
+}
