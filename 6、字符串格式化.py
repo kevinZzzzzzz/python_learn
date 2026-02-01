@@ -13,6 +13,10 @@ now = 'python'
 info = "我是%s,今年%d岁,现在是一名%s，我正在学习%s。" % (name, age, joy, now)
 print(info)
 
+info1 = '我是{},今年{}岁,现在是一名{},我正在学习{}'.format(name, age, joy, now)
+print(info1, 123)
+
+
 # 数字精度控制
 """
     我们可以使用辅助符号'm,n'来控制数据的宽度精度
