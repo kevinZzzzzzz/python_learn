@@ -17,7 +17,7 @@ name3 = """
 print(type(name3), name3)
 
 # 使用 \ 转义字符 解除引号的效用
-name = "haha\'2e2\"234"
+name = "haha\'2e2\'234"
 print(type(name), name)
 
 # 字符串拼接

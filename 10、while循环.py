@@ -6,6 +6,7 @@ while 条件：
     条件满足时，做的事情3
     。。。
 """
+import random
 # count = int(0)
 # while count < 100:
 #     print("哈哈哈", count)
@@ -20,7 +21,7 @@ while num <= 100:
 print(f"1到100累计：{num2}")
 
 # test 设置1-100随机整数，判断输入的数字是否等于随机数
-import random
+
 count2 = random.randint(1, 100)
 num4 = int(0)  # 猜测的次数
 flag = True
