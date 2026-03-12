@@ -47,7 +47,7 @@ def tuple_while():
     index = 0
     while index < len(t1):
         ele = t1[index]
-        print(ele)
+        print(f"{ele}, 12")
         index += 1
 
 def tuple_for():

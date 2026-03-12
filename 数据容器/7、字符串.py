@@ -6,7 +6,9 @@ my_str = 'ahahah kevin asdad'
 # 通过下标索引取值
 value = my_str[0]
 value2 = my_str[-1]
-print(value, value2)
+print(f'{value}\t', end='')
+print(f'{value2}\t', end='')
+
 
 # index 查找元素下标
 index = my_str.index('h')
