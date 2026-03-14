@@ -20,7 +20,6 @@ def lens(date):
         count += 1
     print(f'字符串{date}的长度是：{count}')
 
-
 lens(str1)
 lens(str2)
 lens(str3)
