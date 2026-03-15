@@ -34,7 +34,7 @@ print(my_set)
 随机取出一个元素
 语法：集合.pop()
 """
-my_set = {1, 2, 3, 4, 5}
+my_set = {1, 2, 3 , 4, 5}
 ele = my_set.pop()
 print(f"随机取出：{ele}", my_set)
 

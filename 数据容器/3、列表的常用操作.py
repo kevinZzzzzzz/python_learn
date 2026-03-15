@@ -83,3 +83,11 @@ print(num)
 print(len(mylis1))
 print(len(myList))
 print(len(myList1))
+
+"""
+获取容器内所有数的总和
+必须是数字类型
+语法：sum(列表)
+"""
+result1 = sum([1, 2, 3, 4, 5, 6])
+print(result1)

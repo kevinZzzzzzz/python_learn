@@ -26,6 +26,13 @@ print(my_dict['王力宏'])
 print(my_dict['周杰伦'])
 print(my_dict['林俊杰'])
 
+"""
+安全取值 若键key不存在，会返回默认值（如果没有设置默认值，则返回None）
+"""
+result = my_dict.get('haha')
+print(result)  # None
+result1 = my_dict.get('aghah', '不存在')   # 不存在
+print(result1)
 # 定义嵌套
 my_dict4 = {
     "王力宏": {"yw": 70, 'sx': 90, 'yy': 99},
@@ -80,7 +87,6 @@ for i in my_dict4:
 语法：len(字典)
 """
 print(len(my_dict4))
-
 
 """
 练习：
