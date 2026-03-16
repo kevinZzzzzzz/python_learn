@@ -47,3 +47,14 @@ stu_1.say_hi('很高兴认识大家')
 stu_2 = Student()
 stu_2.name = 'zzzzzkevin'
 stu_2.say_hi('xixixixix')
+
+"""
+通过实例.__dict__ 可以查看实例身上的多有属性
+"""
+print(stu_1)  # <__main__.Student object at 0x10dde7fd0>
+print(stu_1.__dict__)
+
+"""
+通过type函数，可以查看某个实例对象，是由哪个类创建出来的
+"""
+print(type(stu_1))  # <class '__main__.Student'>
