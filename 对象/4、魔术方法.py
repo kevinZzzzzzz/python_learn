@@ -20,7 +20,7 @@ class Student:
         print("Student类创建类一个对象")
 
 stu_1 = Student('kevinZzzz', 31, '123213123123')
-stu_2 = Student('哈哈哈哈', 31, '43235235234')
+stu_2 =  Student('哈哈哈哈', 31, '43235235234')
 
 # __str__
 print(stu_1.__str__())  # <__main__.Student object at 0x10ac150d0>
